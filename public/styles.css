@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  margin: 2rem auto;
+  max-width: 40rem;
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+#called-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  list-style: none;
+  padding: 0;
+}
+
+#called-list li {
+  background: #eef2ff;
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+}
+
+.last-ball strong {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bingo</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Bingo</h1>
+      <p id="status">Press Draw to call a number.</p>
+      <p class="last-ball">Last ball: <strong id="last-ball">—</strong></p>
+      <div class="actions">
+        <button type="button" id="draw-btn">Draw</button>
+        <button type="button" id="reset-btn">Reset game</button>
+      </div>
+      <section>
+        <h2>Called numbers</h2>
+        <ul id="called-list"></ul>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

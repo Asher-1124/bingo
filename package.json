@@ -1,0 +1,17 @@
+{
+  "name": "bingo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple Bingo game for local development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/smoke.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
